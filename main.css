@@ -1,6 +1,9 @@
 body {
   background-color: indigo;
 }
+li {
+  float: left;
+}
 ul a {
   display: block;
   color: wheat;
@@ -12,10 +15,10 @@ li a:hover {
   background-color: cadetblue;
   color: black;
 }
-/*.section-1 {
+.section-1 {
   font-family: cursive;
   font-weight: bold;
-} */
+} 
 article {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 25px;
@@ -23,6 +26,19 @@ article {
   flex-direction: column;
   width: 200px;
 }
-.card {
+.card-container {
   display: flex;
+  flex-flow: row wrap;
+  padding: 5 px;
+}
+.card {
+  margin: 10px;
+  border: 1px solid black;
+}
+.card log {
+  height: 400px;
+}
+.card h2 {
+  text-align: center;
+  background: bisque;
 }
