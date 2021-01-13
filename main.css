@@ -1,3 +1,28 @@
 body {
-  background-color: red;
+  background-color: indigo;
+}
+ul a {
+  display: block;
+  color: wheat;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: cadetblue;
+  color: black;
+}
+/*.section-1 {
+  font-family: cursive;
+  font-weight: bold;
+} */
+article {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.card {
+  display: flex;
 }
