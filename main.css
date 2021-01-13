@@ -4,6 +4,9 @@ body {
 li {
   float: left;
 }
+li {
+  float: left;
+}
 ul a {
   display: block;
   color: black;
@@ -36,7 +39,11 @@ article {
   border: 1px solid black;
 }
 .card log {
+<<<<<<< HEAD
   height: 200px;
+=======
+  height: 400px;
+>>>>>>> c76686c247a276facd556926b89559ebc60af900
 }
 .card h2 {
   text-align: center;
