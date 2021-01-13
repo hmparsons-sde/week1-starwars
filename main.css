@@ -1,12 +1,12 @@
 body {
-  background-color: indigo;
+  background-color: bisque;
 }
 li {
   float: left;
 }
 ul a {
   display: block;
-  color: wheat;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,7 +36,7 @@ article {
   border: 1px solid black;
 }
 .card log {
-  height: 400px;
+  height: 200px;
 }
 .card h2 {
   text-align: center;
